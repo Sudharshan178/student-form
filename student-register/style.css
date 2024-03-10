@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right,#0b54e4,#f0eff5);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+
+.student_container{
+   text-align: center;
+   
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+    
+}
+
+.form th{
+    width:100%;
+    text-align: right;
+
+}.form td {
+  
+    width:100%;
+    text-align: left;
+}
+
+.table{
+    font-family: 'Poppins', sans-serif;
+
+    width: 300px;
+}
+
+/*input styles*/
+.input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: larger;
+    border-bottom: 0.5px solid rgb(181, 181, 181);
+    
+}
+
+
+
+
+
+
+
+
+
+.save_button{
+   width: 100%;
+   background-color: rgb(6, 63, 250);
+   height: 30px;
+   border-radius: 30px;
+   margin-top: 15px;
+}
+
+.Action-container{
+    padding-top: 50px;
+}
+
+
+.table2 th,.table2 td{
+    border: 2px solid rgb(70, 51, 214);
+    width: 500px;
+    text-align: center;
+}
+
+.table2{
+    border: 2px solid rgb(70, 51, 214);
+}
+
+.delete-button{
+    background-color: rgb(203, 63, 63);
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    width: 70px;
+    
+}
+

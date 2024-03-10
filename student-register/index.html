@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,900&family=Poppins&display=swap" 
+rel="stylesheet">
+    
+</head>
+<body>
+    <div class="student_container">
+        <div>
+            <h1>STUDENT FORM</h1>
+        </div>
+
+        <div class="form">
+            <table class="table">
+             
+                <tr>
+                    <th>Name:</th>
+                    <td><input type="text" class="input"  id="nameInput"></td>
+                </tr>
+                
+                <tr>
+                    <th>Age:</th>
+                    <td><input type="number" class="input" id="ageInput"></td>
+                </tr>
+                
+                <tr>
+                    <th>Gender:</th>
+                    <td>
+                        <input type="radio" name="gender" value="Male" id="maleInput"><label for="maleInput">Male</label>
+                        <input type="radio" name="gender" value="Female" id="femaleInput"><label for="femaleInput">Female</label>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th>Course:</th>
+                    <td>
+                        <select class="input" id="courseSelect" style="width:100%">
+                            <option value="Html">Html</option>
+                            <option value="Css">Css</option>
+                            <option value="JavaScript">JavaScript</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th >Email:</th>
+                    <td><input type="email" class="input" id="emailInput"></td>
+                </tr>
+              </div> 
+                
+                <tr>
+                    <td colspan="2" >
+                        <button class="save_button" onclick="saveData()">Save</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="form">
+            <div class="Action-container">
+                <table class="table2">
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Course</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                    </tr>
+                
+                    <tbody id="report">
+                        <!-- Data will be inserted here dynamically -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
